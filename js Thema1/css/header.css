@@ -1,0 +1,130 @@
+.header{
+    position: relative;
+    background-color: silver;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    border: 1px solid black;
+    box-shadow: 1px 2px 3px black;
+    
+}
+
+.header1{
+    display: grid;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding: 10px 10px;
+}
+
+.header1 button{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    border-radius: 25%;
+    background-color: black;
+    color:white;
+    padding: 5px;
+    cursor: pointer;
+}
+
+
+.header2{
+    display: grid;
+    justify-content: center;
+    align-items:center;
+}
+
+.header2 p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+    letter-spacing: 1px;
+}
+
+.header3{
+    display: grid;
+    justify-content: flex-end;
+    align-items:flex-end;
+    padding: 15px;
+}
+
+.header3 span{
+    font-size: 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.header1 .form{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap:50px;
+    padding: 20px;
+    text-align: right;
+    position: fixed;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%,50%);
+    background-color: darkgray;
+    box-shadow:3px 2px 4px black;
+    display: none;
+    z-index: 1;
+}
+
+.header1 form{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap:50px;
+    padding: 20px;
+    text-align: right;
+    position: fixed;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%,50%);
+    background-color: darkgray;
+    box-shadow:3px 2px 4px black;
+    display: none;
+    z-index: 1;
+}
+
+.header1 .close1{
+    position: absolute;
+    right:10px;
+    top:2px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.header3 .sidebar{
+    position: fixed;
+    top:0;
+    right:0;
+    background-color: rgb(24, 24, 24);
+    width: 250px;
+    height:100%;
+    display: none;
+    transition: linear;
+    z-index: 1;
+}
+
+.header3 .sidebar a{
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    padding: 20px;
+    margin-top: 20px;
+    display: block;
+}
+
+.header3 .sidebar .close2{
+    position: absolute;
+    right:10px;
+    top:2px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+}

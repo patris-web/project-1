@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/searchbar.css">
+    <link rel="stylesheet" href="../css/slideshow.css">
+    <link rel="stylesheet" href="../css/image.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Eshop</title>
+</head>
+<body>
+    <div class="header">
+        <div class="header1">
+            <form class="form">
+                <span class="close1" onclick="closeform()">&times;</span>
+                <label>Username:</label>
+                <input type="text">
+                <label>Password:</label>
+                <input type="password">
+                <input type="submit">
+            </form>
+        <button onclick="openform()">Login</button>
+    </div>
+        <div class="header2">
+            <p>E-Shop</p>
+        </div>
+        <div class="header3">
+            <span onclick="opennav()">Ξ</span>
+            <div class="sidebar">
+                <span class="close2" onclick="closenav()">X</span>
+                <a href="#">Home</a>
+                <a href="#">About Us</a>
+                <a href="#">Products</a>
+                <a href="#">Contact</a>
+            </div>
+        </div>
+    </div>
+    <div class="searchbar">
+        <input type="text" name="search" placeholder="Search...">
+    </div>
+    <div class="col">
+        <div class="container">
+            <div class="slide">
+                <img src="../images/slider1.png">
+                <div class="number">1/3</div>
+                <div class="content">Περιγραφή Εικόνας</div>
+            </div>
+            <div class="slide">
+                <img src="../images/slider2.jpg">
+                <div class="number">2/3</div>
+                <div class="content">Περιγραφή Εικόνας</div>
+            </div>
+            <div class="slide">
+                <img src="../images/slider3.jpg">
+                <div class="number">3/3</div>
+                <div class="content">Περιγραφή Εικόνας</div>
+            </div>
+            <div class="prev" onclick="nextpre(1)"> > </div>
+            <div class="next"onclick="nextpre(-1)"> < </div>
+        </div>
+    </div>
+    <div class="duo">
+        <div class="col-1">
+            <img src="../images/image2.jpg" class="img" id="openimage">
+            <div class="modal" id="modal">
+                <img class="imageModal" id="showimage">
+                <span class="close">&times;</span>
+            </div>
+        </div>
+        <div class="col-1">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod voluptas obcaecati officia doloribus provident tenetur. Quis fugit illum, dolore at numquam aliquam sunt neque doloribus molestias, deserunt animi voluptas temporibus.</p>
+        </div>
+    </div>
+    <div class="footer">
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-linkedin"></a>
+        <a href="#" class="fa fa-youtube"></a>
+        <a href="#" class="fa fa-instagram"></a>
+        <button id="topbutton" onclick="toppage()">TOP</button>
+    </div>
+    <script src="../js/login.js"></script>
+    <script src="../js/sidebar.js"></script>
+    <script src="../js/slideshow.js"></script>
+    <script src="../js/imageModal.js"></script>
+    <script src="../js/topbutton.js"></script>
+</body>
+</html>

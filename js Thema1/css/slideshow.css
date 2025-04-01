@@ -1,0 +1,56 @@
+.col{
+    position: relative;
+}
+
+.container{
+    position: relative;
+}
+
+.slide{
+    position: relative;
+}
+
+img{
+    width:100%;
+}
+
+.number{
+    top: 10px;
+    left:50%;
+    position: absolute;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    color: white;
+}
+
+.content{
+    bottom: 30px;
+    left:50%;
+    transform: translate(-50%);
+    position: absolute;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    color: white;
+}
+
+.prev{
+    top: 50%;
+    transform: translate(-50%);
+    right:20px;
+    position: absolute;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    color: white;
+    cursor: pointer;
+}
+
+.next{
+    top: 50%;
+    transform: translate(-50%);
+    left:30px;
+    position: absolute;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    color: white;
+    cursor: pointer;
+}
