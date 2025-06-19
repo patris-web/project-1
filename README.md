@@ -1,9 +1,26 @@
-# project-1
-Simple E-Shop Layout
-This is a simple E-shop layout project that demonstrates the following:
-1-Interactive Login Button
-2-Interactive menu 
-3-Functional on-click slideshow with images
-4-Image modal
-5-Top button
-This project is not pointing so much in css styling but in javascript making it interactive for the user.
+#Λειτουργίες που περιλαμβάνει:
+
+✅ Interactive Login Button – Προσομοίωση login για χρήση μελλοντικά
+
+✅ Αναδιπλούμενο Menu (Responsive Menu) – Με κλικ ανοίγει/κλείνει
+
+✅ Slideshow με Εικόνες – Αυτόματη και χειροκίνητη εναλλαγή εικόνων
+
+✅ Modal Εικόνας – Κλικ σε εικόνα ανοίγει σε μεγαλύτερη προβολή
+
+✅ Top Button – Κουμπί που σε ανεβάζει στην κορυφή της σελίδας
+
+#Τεχνολογίες που χρησιμοποιήθηκαν:
+
+-HTML5
+-CSS3 (απαραίτητο styling)
+-JavaScript (focus του project)
+
+#Πώς να το δεις:
+
+1)Κατέβασε το repository ή κάνε Clone
+2)Άνοιξε το αρχείο index.html με τον browser σου
+3)Πλοηγήσου και δοκίμασε τα κουμπιά & λειτουργίες!
+
+#Σκοπός του Project:
+Το συγκεκριμένο layout δημιουργήθηκε για εκπαιδευτικούς σκοπούς, ώστε να επιδείξει τη χρήση JavaScript για βασική διαδραστικότητα σε μια απλή ιστοσελίδα τύπου e-shop.
